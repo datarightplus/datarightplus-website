@@ -15,7 +15,7 @@ enableMissingTranslationPlaceholders = false
 [params]
 
     # Source Code repository section
-    description = "CDR+ GitHub Repository"
+    description = "A set of extensions for the emerging Consumer Data Right"
     github_repository = "https://github.com/bizaio/cdrplus-website"
     version = "0.0.1"
 
