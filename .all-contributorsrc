@@ -20,5 +20,7 @@
   "projectOwner": "bizaio",
   "repoType": "github",
   "repoHost": "https://github.com",
+  "contributorsSortAlphabetically": true,
+  "badgeTemplate": "",
   "skipCi": true
 }
