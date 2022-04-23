@@ -1,4 +1,6 @@
 # CDR+ Website
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 - :globe_with_meridians: [Website](https://cdrplus.au)
 - :newspaper: [Blog](https://cdrplus.au/blog/)
@@ -18,5 +20,18 @@ CDR+ aims to provide an incubator for feature enhancements beyond the mandated o
 
 ## Contributing
 
-Take a look at the [Contribution Guidelines](https://cdrplus.au/docs/contribution-guidelines/) on how to contribute to the CDR+ initiative.
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://www.biza.io/"><img src="https://avatars.githubusercontent.com/u/4291448?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Stuart Low</b></sub></a><br /><a href="#content-perlboy" title="Content">🖋</a></td>
+  </tr>
+</table>
 
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+Take a look at the [Contribution Guidelines](https://cdrplus.au/docs/contribution-guidelines/) on how to contribute to the CDR+ initiative.

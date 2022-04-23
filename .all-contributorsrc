@@ -1,0 +1,26 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "perlboy",
+      "name": "Stuart Low",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4291448?v=4",
+      "profile": "https://www.biza.io/",
+      "contributions": [
+        "content"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "cdrplus-website",
+  "projectOwner": "bizaio",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "contributorsSortAlphabetically": true,
+  "badgeTemplate": "",
+  "skipCi": true
+}
