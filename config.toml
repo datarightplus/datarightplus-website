@@ -1,5 +1,5 @@
 baseURL = "/"
-title = "CDR+"
+title = "CDR Plus"
 
 # Language settings
 contentDir = "content/en"
@@ -11,7 +11,7 @@ enableMissingTranslationPlaceholders = true
 enableRobotsTXT = true
 
 # Will give values to .Lastmod etc.
-enableGitInfo = true
+enableGitInfo = false
 
 # Comment out to enable taxonomies in Docsy
 # disableKinds = ["taxonomy", "taxonomyTerm"]
@@ -61,13 +61,14 @@ anchor = "smart"
 [services]
 [services.googleAnalytics]
 # Comment out the next line to disable GA tracking. Also disables the feature described in [params.ui.feedback].
-id = "UA-00000000-0"
+id = "G-7LKVS5JBCB"
 
 # Language configuration
 
 [languages]
 [languages.en]
-title = "CDR+"
+[languages.en.params]
+title = "CDR Plus"
 description = "A set of extensions for the emerging Consumer Data Right"
 languageName ="English"
 # Weight used for sorting.
@@ -90,7 +91,7 @@ weight = 1
 section = ["HTML", "print", "RSS"]
 
 [params]
-copyright = "CDR+ Contributors"
+copyright = "CDR Plus Contributors"
 # Haven't defined a Privacy Policy yet, can it be the privacy policy from Biza?
 #privacy_policy = "https://policies.google.com/privacy"
 
@@ -116,7 +117,7 @@ version = "0.0"
 url_latest_version = "https://cdrplus.au"
 
 # Repository configuration (URLs for in-page links to opening issues and suggesting changes)
-github_repo = "https://github.com/bizaio/cdrplus-website"
+#github_repo = "https://github.com/cdrplus"
 # An optional link to a related project repo. For example, the sibling repository where your product code lives.
 #github_project_repo = "https://github.com/google/docsy"
 
@@ -128,7 +129,7 @@ github_repo = "https://github.com/bizaio/cdrplus-website"
 #github_branch= "main"
 
 # Google Custom Search Engine ID. Remove or comment out to disable search.
-gcs_engine_id = "d72aa9b2712488cc3"
+gcs_engine_id = "f2e3ac6936c634f7b"
 
 # Enable Algolia DocSearch
 algolia_docsearch = false
@@ -173,25 +174,25 @@ enable = false
 #[params.links]
 # End user relevant links. These will show up on left side of footer and in the community page if you have one.
 [[params.links.user]]
-name = "Slack"
-url = "https://join.slack.com/t/datarightio/shared_invite/zt-8yqhyq37-VUqC1nu~toCRRn1FT7xJ3g"
-icon = "fab fa-slack"
-desc = "Connect with Consumer Data Right implementers"
+  name = "Slack"
+  url = "https://join.slack.com/t/datarightio/shared_invite/zt-8yqhyq37-VUqC1nu~toCRRn1FT7xJ3g"
+  icon = "fab fa-slack"
+  desc = "Connect with Consumer Data Right implementers"
 [[params.links.user]]
-name = "Consumer Data Standards"
-url = "https://consumerdatastandardsaustralia.github.io/standards"
-icon = "fab"
-desc = "Access the underlying Data Standards"
+  name = "Consumer Data Standards"
+  url = "https://consumerdatastandardsaustralia.github.io/standards"
+  icon = "fab"
+  desc = "Access the underlying Data Standards"
 [[params.links.developer]]
-  name = "CDR+ Source"
-  url = "https://github.com/bizaio/cdrplus-website"
+  name = "CDR+ on GitHub"
+  url = "https://github.com/cdrplus"
   icon = "fab fa-github"
-  desc = "Source for this website"
-[[params.links.developer]]
-name = "Data Standards"
-url = "https://github.com/consumerDataStandardsAustralia/"
-icon = "fab"
-desc = "Consumer Data Standards Australia GitHub Consultation"
+  desc = "Repositories forming the CDR Plus initative"
+[[params.links.user]]
+  name = "Data Standards"
+  url = "https://github.com/ConsumerDataStandardsAustralia/standards/wiki/Standards-Maintenance-Iterations"
+  icon = "fab"
+  desc = "DSB Standards Maintenance Iterations"
 
 
 # hugo module configuration
