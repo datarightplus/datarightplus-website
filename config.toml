@@ -173,26 +173,26 @@ enable = false
 
 #[params.links]
 # End user relevant links. These will show up on left side of footer and in the community page if you have one.
-[[params.links.user]]
-  name = "Slack"
-  url = "https://join.slack.com/t/datarightio/shared_invite/zt-8yqhyq37-VUqC1nu~toCRRn1FT7xJ3g"
-  icon = "fab fa-slack"
-  desc = "Connect with Consumer Data Right implementers"
-[[params.links.user]]
-  name = "Consumer Data Standards"
-  url = "https://consumerdatastandardsaustralia.github.io/standards"
-  icon = "fab"
-  desc = "Access the underlying Data Standards"
-[[params.links.developer]]
-  name = "CDR+ on GitHub"
-  url = "https://github.com/cdrplus"
-  icon = "fab fa-github"
-  desc = "Repositories forming the CDR Plus initative"
-[[params.links.user]]
-  name = "Data Standards"
-  url = "https://github.com/ConsumerDataStandardsAustralia/standards/wiki/Standards-Maintenance-Iterations"
-  icon = "fab"
-  desc = "DSB Standards Maintenance Iterations"
+#[[params.links.user]]
+#  name = "Slack"
+#  url = "https://join.slack.com/t/datarightio/shared_invite/zt-8yqhyq37-VUqC1nu~toCRRn1FT7xJ3g"
+#  icon = "fab fa-slack"
+#  desc = "Connect with Consumer Data Right implementers"
+#[[params.links.user]]
+#  name = "Consumer Data Standards"
+#  url = "https://consumerdatastandardsaustralia.github.io/standards"
+#  icon = "fab"
+#  desc = "Access the underlying Data Standards"
+#[[params.links.developer]]
+#  name = "CDR+ on GitHub"
+#  url = "https://github.com/cdrplus"
+#  icon = "fab fa-github"
+#  desc = "Repositories forming the CDR Plus initative"
+#[[params.links.user]]
+#  name = "Data Standards"
+#  url = "https://github.com/ConsumerDataStandardsAustralia/standards/wiki/Standards-Maintenance-Iterations"
+#  icon = "fab"
+#  desc = "DSB Standards Maintenance Iterations"
 
 
 # hugo module configuration
