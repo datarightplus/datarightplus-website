@@ -38,39 +38,14 @@ Here's a quick guide on providing a suggestion to a specification by way of Pull
 1. Continue updating your doc and pushing your changes until you're happy with the content.
 1. When you're ready for a review, add a comment to the PR, and remove any "WIP" markers.
 
+## Improving the website
+
+This website is statically generated using Hugo+Docsy. If you identify corrections or improvements please contact the CDR Plus coordinators on either Slack or via Email (see [Participate](/participate)).
+
 ## Creating a new specification
 
-## Updating a single page
+Here's a quick guide on creating a new specification
 
-If you've just spotted something you'd like to change while using the docs, Docsy has a shortcut for you:
-
-1. Click **Edit this page** in the top right hand corner of the page.
-1. If you don't already have an up to date fork of the project repo, you are prompted to get one - click **Fork this repository and propose changes** or **Update your Fork** to get an up to date version of the project to edit. The appropriate page in your fork is displayed in edit mode.
-1. Follow the rest of the [Managing the Documentation](#managing-the-documentation) process above to make, preview, and propose your changes.
-
-## Previewing your changes locally
-
-If you want to run your own local Hugo server to preview your changes as you work:
-
-1. Install Hugo and any other tools you need. You'll need at least **Hugo version 0.97.3** (we recommend using the most recent available version), and it must be the **extended** version, which supports SCSS.
-1. Fork the [CDR+ Website repo](https://github.com/bizaio/cdrplus-website) repo into your own project, then create a local copy using `git clone`. Don’t forget to use `--recurse-submodules` or you won’t pull down some of the code you need to generate a working site.
-
-    ```
-    git clone --recurse-submodules --depth 1 https://github.com/bizaio/cdrplus-website.git
-    ```
-
-1. Run `hugo server` in the site root directory. By default your site will be available at http://localhost:1313/. Now that you're serving your site locally, Hugo will watch for changes to the content and automatically refresh your site.
-1. Continue with the usual GitHub workflow to edit files, commit them, push the
-  changes up to your fork, and create a pull request.
-
-## Creating an issue
-
-If you've found a problem in the docs, but you're not sure how to fix it yourself, please create an issue in the [CDR+ Website repo](https://github.com/bizaio/cdrplus-website/issues). You can also create an issue about a specific page by clicking the **Create Issue** button in the top right hand corner of the page.
-
-## Useful resources
-
-* [Docsy user guide](https://www.docsy.dev/docs/): All about Docsy, including how it manages navigation, look and feel, and multi-language support.
-* [Hugo documentation](https://gohugo.io/documentation/): Comprehensive reference for Hugo.
-* [Github Hello World!](https://guides.github.com/activities/hello-world/): A basic introduction to GitHub concepts and workflow.
-
-
+1. From [martinthomson/internet-draft-template](https://github.com/martinthomson/internet-draft-template) click *Use this template* > *Create a new repository*
+1. Introduce your specification and get the CI/CD working so that it is automatically deployed\
+1. Contact CDR Plus coordinators on either Slack or via Email (see [Participate](/participate)) 
