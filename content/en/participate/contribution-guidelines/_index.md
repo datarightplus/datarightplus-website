@@ -27,6 +27,10 @@ When making suggestions the following considerations are recommended:
 1. Avoid duplicating upstream specifications, particularly those already in IETF format as it can cause more problems than it solves
 1. Contact the author of the specification to discuss the proposed change. An ideal way of doing this is through the Slack community documented on <a href="/participate">Participate</a>.
 
+## Building Specifications
+
+Because specifications use the I-D template from upstream they come with "batteries included" which means after cloning a specification you can use `make` and it will handle things such as setting a python virtualenv and compiling the specification locally.
+
 ## Contributing to an existing specification
 
 Here's a quick guide on providing a suggestion to a specification by way of Pull Request.
