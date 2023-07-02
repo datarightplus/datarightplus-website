@@ -25,7 +25,7 @@ When making suggestions the following considerations are recommended:
 1. Use markdown for specification format. Some of the early specifications were produced for `mmark` but the general recommendation is `kramdown-rfc`
 1. Avoid swathes of large change, focus on small, specific contributions
 1. Avoid duplicating upstream specifications, particularly those already in IETF format as it can cause more problems than it solves
-1. Contact the author of the specification to discuss the proposed change. An ideal way of doing this is through the Slack community documented on <a href="/participate">Participate</a>.
+1. Contact the author of the specification to discuss the proposed change. An ideal way of doing this is through the Slack community documented on <a href="/participate/">Participate</a>.
 
 ## Building Specifications
 
@@ -44,7 +44,7 @@ Here's a quick guide on providing a suggestion to a specification by way of Pull
 
 ## Improving the website
 
-This website is statically generated using Hugo+Docsy. If you identify corrections or improvements please contact the CDR Plus coordinators on either Slack or via Email (see [Participate](/participate)).
+This website is statically generated using Hugo+Docsy. If you identify corrections or improvements please contact the CDR Plus coordinators on either Slack or via Email (see [Participate](/participate/)).
 
 ## Creating a new specification
 
@@ -52,4 +52,4 @@ Here's a quick guide on creating a new specification
 
 1. From [martinthomson/internet-draft-template](https://github.com/martinthomson/internet-draft-template) click *Use this template* > *Create a new repository*
 1. Introduce your specification and get the CI/CD working so that it is automatically deployed\
-1. Contact CDR Plus coordinators on either Slack or via Email (see [Participate](/participate)) 
+1. Contact CDR Plus coordinators on either Slack or via Email (see [Participate](/participate/)) 
