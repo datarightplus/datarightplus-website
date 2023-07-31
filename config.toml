@@ -114,10 +114,10 @@ version = "0.0"
 
 # A link to latest version of the docs. Used in the "version-banner" partial to
 # point people to the main doc site.
-url_latest_version = "https://cdrplus.au"
+url_latest_version = "https://datarightplus.au"
 
 # Repository configuration (URLs for in-page links to opening issues and suggesting changes)
-#github_repo = "https://github.com/cdrplus"
+#github_repo = "https://github.com/datarightplus"
 # An optional link to a related project repo. For example, the sibling repository where your product code lives.
 #github_project_repo = "https://github.com/google/docsy"
 
@@ -185,7 +185,7 @@ enable = false
 #  desc = "Access the underlying Data Standards"
 #[[params.links.developer]]
 #  name = "DR+ on GitHub"
-#  url = "https://github.com/cdrplus"
+#  url = "https://github.com/datarightplus"
 #  icon = "fab fa-github"
 #  desc = "Repositories forming the DataRight Plus initative"
 #[[params.links.user]]

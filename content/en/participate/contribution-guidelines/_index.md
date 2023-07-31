@@ -35,7 +35,7 @@ Because specifications use the I-D template from upstream they come with "batter
 
 Here's a quick guide on providing a suggestion to a specification by way of Pull Request.
 
-1. Fork the appropriate specification, for instance the [DataRight Plus: Security Baseline](https://github.com/cdrplus/cdrplus-infosec-baseline) on GitHub.
+1. Fork the appropriate specification, for instance the [DataRight Plus: Security Baseline](https://github.com/datarightplus/datarightplus-infosec-baseline) on GitHub.
 1. Make your changes and send a pull request (PR).
 1. If you're not yet ready for a review, add "WIP" to the PR name to indicate it's a work in progress. **Don't** alter front matter.
 1. Wait for the automated PR workflow to complete successfully. 
