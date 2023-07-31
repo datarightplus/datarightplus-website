@@ -1,5 +1,5 @@
 baseURL = "/"
-title = "CDR Plus"
+title = "DataRight Plus"
 
 # Language settings
 contentDir = "content/en"
@@ -68,7 +68,7 @@ id = "G-7LKVS5JBCB"
 [languages]
 [languages.en]
 [languages.en.params]
-title = "CDR Plus"
+title = "DataRight Plus"
 description = "A set of extensions for the emerging Consumer Data Right"
 languageName ="English"
 # Weight used for sorting.
@@ -91,7 +91,7 @@ weight = 1
 section = ["HTML", "print", "RSS"]
 
 [params]
-copyright = "CDR Plus Contributors"
+copyright = "DataRight Plus Contributors"
 # Haven't defined a Privacy Policy yet, can it be the privacy policy from Biza?
 #privacy_policy = "https://policies.google.com/privacy"
 
@@ -184,10 +184,10 @@ enable = false
 #  icon = "fab"
 #  desc = "Access the underlying Data Standards"
 #[[params.links.developer]]
-#  name = "CDR+ on GitHub"
+#  name = "DR+ on GitHub"
 #  url = "https://github.com/cdrplus"
 #  icon = "fab fa-github"
-#  desc = "Repositories forming the CDR Plus initative"
+#  desc = "Repositories forming the DataRight Plus initative"
 #[[params.links.user]]
 #  name = "Data Standards"
 #  url = "https://github.com/ConsumerDataStandardsAustralia/standards/wiki/Standards-Maintenance-Iterations"

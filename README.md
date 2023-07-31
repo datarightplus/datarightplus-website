@@ -1,4 +1,4 @@
-# CDR+ Website
+# DR+ Website
 
 We use [Hugo](https://gohugo.io/) to format and generate our website, the
 [Docsy](https://github.com/google/docsy) theme for styling and site structure,
@@ -16,7 +16,7 @@ information on using pull requests.
 
 Here's a quick guide to updating the docs.
 
-1. Fork the [CDR+ Website repo](https://github.com/bizaio/cdrplus-website) on GitHub.
+1. Fork the [DR+ Website repo](https://github.com/bizaio/cdrplus-website) on GitHub.
 1. Make your changes and send a pull request (PR).
 1. If you're not yet ready for a review, add "WIP" to the PR name to indicate
    it's a work in progress. (**Don't** add the Hugo property
@@ -41,7 +41,7 @@ If you've just spotted something you'd like to change while using the docs, Docs
 If you want to run your own local Hugo server to preview your changes as you work:
 
 1. [Install Hugo](https://gohugo.io/categories/installation/) and any other tools you need. You'll need at least **Hugo version 0.97.3** (we recommend using the most recent available version), and it must be the **extended** version, which supports SCSS.
-1. Fork the [CDR+ Website repo](https://github.com/bizaio/cdrplus-website) repo into your own project, then create a local copy using `git clone`. Don’t forget to use `--recurse-submodules` or you won’t pull down some of the code you need to generate a working site.
+1. Fork the [DR+ Website repo](https://github.com/bizaio/cdrplus-website) repo into your own project, then create a local copy using `git clone`. Don’t forget to use `--recurse-submodules` or you won’t pull down some of the code you need to generate a working site.
 
     ```
     git clone --recurse-submodules --depth 1 https://github.com/bizaio/cdrplus-website.git

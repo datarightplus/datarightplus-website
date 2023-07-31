@@ -4,7 +4,7 @@ linkTitle: "Contribution Guidelines"
 type: docs
 url: /docs/contribution-guidelines
 description: >
- The CDR+ initiative welcomes and encourages contributions from any member of the public on an open, transparent and collegiate basis.
+ The DR+ initiative welcomes and encourages contributions from any member of the public on an open, transparent and collegiate basis.
 ---
 
 ## Ground Rules
@@ -35,7 +35,7 @@ Because specifications use the I-D template from upstream they come with "batter
 
 Here's a quick guide on providing a suggestion to a specification by way of Pull Request.
 
-1. Fork the appropriate specification, for instance the [CDR Plus: Security Baseline](https://github.com/cdrplus/cdrplus-infosec-baseline) on GitHub.
+1. Fork the appropriate specification, for instance the [DataRight Plus: Security Baseline](https://github.com/cdrplus/cdrplus-infosec-baseline) on GitHub.
 1. Make your changes and send a pull request (PR).
 1. If you're not yet ready for a review, add "WIP" to the PR name to indicate it's a work in progress. **Don't** alter front matter.
 1. Wait for the automated PR workflow to complete successfully. 
@@ -44,7 +44,7 @@ Here's a quick guide on providing a suggestion to a specification by way of Pull
 
 ## Improving the website
 
-This website is statically generated using Hugo+Docsy. If you identify corrections or improvements please contact the CDR Plus coordinators on either Slack or via Email (see [Participate](/participate/)).
+This website is statically generated using Hugo+Docsy. If you identify corrections or improvements please contact the DataRight Plus coordinators on either Slack or via Email (see [Participate](/participate/)).
 
 ## Creating a new specification
 
@@ -52,4 +52,4 @@ Here's a quick guide on creating a new specification
 
 1. From [martinthomson/internet-draft-template](https://github.com/martinthomson/internet-draft-template) click *Use this template* > *Create a new repository*
 1. Introduce your specification and get the CI/CD working so that it is automatically deployed\
-1. Contact CDR Plus coordinators on either Slack or via Email (see [Participate](/participate/)) 
+1. Contact DataRight Plus coordinators on either Slack or via Email (see [Participate](/participate/)) 

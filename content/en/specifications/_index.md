@@ -9,4 +9,4 @@ menu:
     pre: <i class='fa fa-solid fa-book'></i>
 ---
 
-The CDR Plus initiative is working on a number of specifications which are grouped into a number of categories.
+The DataRight Plus initiative is working on a number of specifications which are grouped into a number of categories.
