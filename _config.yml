@@ -1,0 +1,79 @@
+title: DataRight+
+description: An initiative to extend and expand the Consumer Data Right beyond the mandate and into the world
+theme: just-the-docs
+repository: datarightplus/datarightplus-website
+url: https://dataright.plus
+
+permalink: pretty
+
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - .idea/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - bin/
+  - lib/
+  - "*.gemspec"
+  - "*.gem"
+  - LICENSE.txt
+  - package.json
+  - package-lock.json
+  - Rakefile
+  - README.md
+  - CODE_OF_CONDUCT.md
+  - docker-compose.yml
+  - Dockerfile
+  - fixtures/
+
+aux_links:
+  DataRight Plus on GitHub: https://github.com/datarightplus
+
+nav_external_links:
+  - title: DataRight Plus on GitHub
+    url: https://github.com/datarightplus
+
+back_to_top: true
+back_to_top_text: "Back to top"
+
+mermaid:
+  version: "10.9.0"
+
+heading_anchors: true
+
+gh_edit_link: true # show or hide edit this page link
+gh_edit_link_text: "Edit this page on GitHub"
+gh_edit_repository: "https://github.com/datarightplus/datarightplus-website"
+gh_edit_branch: "main"
+gh_edit_view_mode: "tree"
+
+contributors:
+  - username: perlboy
+    id: 4291448
+  - username: benkolera
+    id: 159197
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-github-metadata
+  - jekyll-include-cache
+
+kramdown:
+  syntax_highlighter_opts:
+    block:
+      line_numbers: false
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  startings: []
+  blanklines: false
+  profile: false
+
