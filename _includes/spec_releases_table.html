@@ -1,0 +1,31 @@
+<p>
+    <a href="https://github.com/datarightplus/{{ include.repo }}"><i class="fa fa-github" aria-hidden="true"></i> GitHub</a>
+    <a href="https://github.com/datarightplus/{{ include.repo }}/issues"><i class="fa fa-comments" aria-hidden="true"></i> Issues</a>
+    <a href="https://github.com/datarightplus/{{ include.repo }}/pulls"><i class="fa fa-code-pull-request" aria-hidden="true"></i> Pull Requests</a>
+</p>
+
+<table id="{{ include.repo }}">
+    <thead>
+    <tr>
+        <th style="text-align: left">Version</th>
+        <th style="text-align: left">Release Date</th>
+        <th style="text-align: left">Links</th>
+    </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="text-align: left">latest (editors draft)</td>
+            <td style="text-align: left">N/A</td>
+            <td style="text-align: left"><a href="https://datarightplus.github.io/{{ include.repo }}/{{ include.name }}.txt">text</a> <a href="https://datarightplus.github.io/{{ include.repo }}/{{ include.name }}.html">html</a></td>
+        </tr>
+        {% assign releases = include.releases | split: " " %}
+        {% for release in releases %}
+        {% assign release_data = release | split: ":" %}
+        <tr>
+            <td style="text-align: left">{{ release_data[0] }}</td>
+            <td style="text-align: left">{{ release_data[1] }}</td>
+            <td style="text-align: left"><a href="https://datarightplus.github.io/{{ include.repo }}/{{ include.name }}-{{ release_data[0] }}/{{ include.name }}.txt">text</a> <a href="https://datarightplus.github.io/{{ include.repo }}/{{ include.name }}-{{ release_data[0] }}/{{ include.name }}.html">html</a></td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>

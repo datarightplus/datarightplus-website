@@ -14,11 +14,17 @@ The DataRight Plus (DataRight+) initiative is a community project to build upon 
 DataRight+ aims to provide an incubator for feature enhancements beyond the mandated obligations present with the [Consumer Data Right] while looking beyond Australia and into a global context.
 
 - **We are** implementor **first**
-- **We are** seeking to improve the [Consumer Data Right]
-- **We are** Global promoters of the technical specifications
+- **We are** seeking to improve the [Consumer Data Right] but, more broadly, provide global input into common challenges faced by open data ecosystems
+- **We are** global promoters of the technical specifications
 - **We aren't** endorsed by any government body, although we collaborate with members of government all the same
 - **We aren't** legally binding **in any way**
 - **We aren't** a CDR Support service, please use the [CDR Zendesk]
+
+## Library
+
+The DataRight+ initiative develops, manages and maintains multiple sets of specifications across a variety of knowledge specialisations. In addition, we manage and maintain a set of API documentation that is referenced from within these RFC compliant specifications. We collectively refer to this as a Library of specifications with the deliberate intent of enabling others to select specific components they wish to use when building ecosystems.
+
+We do not believe the best interests of an implementor is served through a set of unrelated concepts being merged together into a sea of text but rather individual concepts, carefully specified and reasonably grouped to allow subject-matter experts in specific delivery areas focus on their specific outcomes.
 
 ## Contributing
 
@@ -26,9 +32,9 @@ When contributing to this repository, please first discuss the change you wish t
 
 ### Fortnightly Consultation
 
-If you want to get more involved in contributing to the DataRight+ initiative we hold a [Zoom] meeting **fortnightly Thursday, 2-3pm AEST**. A calendar invite for this meeting can be found [here](https://us06web.zoom.us/meeting/tZMpfu6orjwtGdaz6GhdxAUjiHUAgKhtRceW/ics?icsToken=98tyKuGvqjItGtSStxqFRpwEBor4KPTziGZajadchknCCyRLQzb8P8p3E7VUGMzi).
+If you want to get more involved in contributing to the DataRight+ initiative we hold a [Zoom] meeting **fortnightly Thursday, 4-5pm AEST**. A calendar invite for this meeting can be found [here](https://us06web.zoom.us/meeting/tZMpfu6orjwtGdaz6GhdxAUjiHUAgKhtRceW/ics?icsToken=98tyKuGvqjItGtSStxqFRpwEBor4KPTziGZajadchknCCyRLQzb8P8p3E7VUGMzi).
 
-DataRight+ is committed to fostering a welcoming community and we encourage all participants to review our [Code of Conduct].
+DataRight+ is committed to fostering a welcoming community, and we encourage all participants to review our [Code of Conduct].
 
 ### Thanks
 
