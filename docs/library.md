@@ -13,13 +13,31 @@ The Australian CDR ecosystem profile targets the combining of DataRight+ specifi
 
 {% include spec_releases_table.html repo="datarightplus-cdr-profile" name="draft-authors-datarightplus-cdr-profile" releases="00:2024-04-03" %}
 
+## Australian DataRight+
+
+The Australian DataRight+ ecosystem profile introduces functionality beyond the Australian Consumer Data Right for the purposes of functionality beyond the mandate.
+
+{% include spec_releases_table.html repo="datarightplus-dio-profile" name="draft-authors-datarightplus-dio-profile" releases="" %}
+
 # Actions
+
+## Bulk Transactions Detail V1
+
+The Bulk Transaction Detail specification provides an asynchronous mechanism for downloading bulk Banking Transaction Detail records using the same input parameters as the List Banking Transactions endpoint. While implementing an action lodgement behaviour it is compatible with the CDR Data Sharing Arrangement.
+
+{% include spec_releases_table.html repo="datarightplus-banking-bulk-transaction-v1" name="datarightplus-banking-bulk-transaction-v1" releases="" %}
 
 ## Sharing Arrangement V1
 
 The Sharing Arrangement V1 specification is intended to be a like-for-like specification of the Data Standards specifying the mandated version of a CDR Data Sharing Arrangement. It includes provisions related to custom claims, obligations with respect to specific API endpoints and the supported data clusters (incorporated as oauth2 scopes).
 
 {% include spec_releases_table.html repo="datarightplus-sharing-arrangement-v1" name="draft-authors-datarightplus-sharing-arrangement-v1" releases="00:2024-04-02" %}
+
+## Sharing Arrangement V2
+
+The Sharing Arrangement V2 specification is a next generation implementation of a data sharing arrangement. It is intended to achieve the same  objectives of Sharing Arrangement V1 but provide for an intent based pattern facilitating multiple authorisation patterns and lifecycle monitoring. 
+
+{% include spec_releases_table.html repo="datarightplus-sharing-arrangement-v2" name="draft-authors-datarightplus-sharing-arrangement-v2" releases="" %}
 
 # Data Resource Sets
 
@@ -53,7 +71,21 @@ Security Profile: Baseline edition is intended to be a compatible profile of the
 
 Admission Control: Baseline edition is intended to be a Data Standards compatible specification of the ecosystem authority and related infrastructure. It includes provisions for metadata describing the participants, certificate authorities for ensuring mutual trust of the entire ecosystem and the use of software statement assertions to facilitate registrations between Initiator and Provider.
 
-{% include spec_releases_table.html repo="datarightplus-infosec-baseline" name="draft-authors-datarightplus-infosec-baseline" releases="00:2024-04-02" %}
+{% include spec_releases_table.html repo="datarightplus-admission-control-baseline" name="datarightplus-admission-control-baseline" releases="00:2024-04-02" %}
+
+# Support
+
+## DataRight+: Discovery
+
+The DataRight+: Discovery specification describes a mechanism for resource endpoint and functionality discovery.
+
+{% include spec_releases_table.html repo="datarightplus-discovery" name="draft-authors-datarightplus-discovery" releases="" %}
+
+## DataRight+: Enhanced Endpoint Versioning
+
+The DataRight+: Enhanced Versioning specification extends the versioning scheme used within the Consumer Data Right to versioned request and response payloads.
+
+{% include spec_releases_table.html repo="datarightplus-enhanced-versioning" name="draft-authors-datarightplus-enhanced-versioning" releases="" %}
 
 # Reference Documents
 
