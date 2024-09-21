@@ -25,7 +25,7 @@ The Australian DataRight+ ecosystem profile introduces functionality beyond the 
 
 The Bulk Transaction Detail specification provides an asynchronous mechanism for downloading bulk Banking Transaction Detail records using the same input parameters as the List Banking Transactions endpoint. While implementing an action lodgement behaviour it is compatible with the CDR Data Sharing Arrangement.
 
-{% include spec_releases_table.html repo="datarightplus-banking-bulk-transaction-v1" name="datarightplus-banking-bulk-transaction-v1" releases="" %}
+{% include spec_releases_table.html repo="datarightplus-banking-bulk-transactions-v1" name="draft-authors-datarightplus-banking-bulk-transactions-v1" releases="" %}
 
 ## Sharing Arrangement V1
 
@@ -38,6 +38,12 @@ The Sharing Arrangement V1 specification is intended to be a like-for-like speci
 The Sharing Arrangement V2 specification is a next generation implementation of a data sharing arrangement. It is intended to achieve the same  objectives of Sharing Arrangement V1 but provide for an intent based pattern facilitating multiple authorisation patterns and lifecycle monitoring. 
 
 {% include spec_releases_table.html repo="datarightplus-sharing-arrangement-v2" name="draft-authors-datarightplus-sharing-arrangement-v2" releases="" %}
+
+## Energy Account Switch V1
+
+The Energy Account Switch V1 specification provides a mechanism for initiating an energy account opening process at a target Provider. It is intended to be a first class action to be introduced into the Consumer Data Right.
+
+{% include spec_releases_table.html repo="datarightplus-energy-account-switch-v1" name="draft-authors-datarightplus-energy-switch-v1" releases="" %}
 
 # Data Resource Sets
 
