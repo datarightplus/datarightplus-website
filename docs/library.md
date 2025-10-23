@@ -77,7 +77,7 @@ Security Profile: Baseline edition is intended to be a compatible profile of the
 
 Admission Control: Baseline edition is intended to be a Data Standards compatible specification of the ecosystem authority and related infrastructure. It includes provisions for metadata describing the participants, certificate authorities for ensuring mutual trust of the entire ecosystem and the use of software statement assertions to facilitate registrations between Initiator and Provider.
 
-{% include spec_releases_table.html repo="datarightplus-admission-control-baseline" name="datarightplus-admission-control-baseline" releases="00:2024-04-02" %}
+{% include spec_releases_table.html repo="datarightplus-admission-control-baseline" name="draft-datarightplus-admission-control-baseline" releases="" %}
 
 # Support
 
